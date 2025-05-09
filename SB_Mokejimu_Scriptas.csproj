@@ -1,0 +1,223 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<NoWarn>$(NoWarn);CA1416</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="RESOURCES\New.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="SB_Scriptai_Paleidimui\Naudojimo instrukcija.txt" />
+		<None Remove="SB_Scriptai_Paleidimui\StartChromeSession.bat" />
+		<None Remove="SB_Scriptai_Paleidimui\Start_Payment_Status_Change_Script.bat" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+		<Compile Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.AssemblyInfo.cs" />
+		<Compile Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.GlobalUsings.g.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" />
+		<Content Include="bin\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.deps.json" />
+		<Content Include="bin\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.runtimeconfig.json" />
+		<Content Include="bin\Debug\net7.0\SB_Scriptai_Paleidimui\Naudojimo instrukcija.txt" />
+		<Content Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.csproj.FileListAbsolute.txt" />
+		<Content Include="obj\project.assets.json" />
+		<Content Include="obj\SB_Momentiniai_Mokejimai_Script.csproj.nuget.dgspec.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="SB_Scriptai_Paleidimui\Naudojimo instrukcija.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="SB_Scriptai_Paleidimui\StartChromeSession.bat">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="SB_Scriptai_Paleidimui\Start_Payment_Status_Change_Script.bat">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="bin\Debug\net7.0\AngleSharp.dll" />
+		<None Include="bin\Debug\net7.0\chromedriver.exe" />
+		<None Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\ICSharpCode.SharpZipLib.dll" />
+		<None Include="bin\Debug\net7.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.AspNetCore.Hosting.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.AspNetCore.Http.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.AspNetCore.Http.Features.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Options.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.TestPlatform.CommunicationUtilities.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.TestPlatform.CrossPlatEngine.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.TestPlatform.Utilities.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Common.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" />
+		<None Include="bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" />
+		<None Include="bin\Debug\net7.0\Newtonsoft.Json.Bson.dll" />
+		<None Include="bin\Debug\net7.0\Newtonsoft.Json.dll" />
+		<None Include="bin\Debug\net7.0\NuGet.Frameworks.dll" />
+		<None Include="bin\Debug\net7.0\nunit.engine.api.dll" />
+		<None Include="bin\Debug\net7.0\nunit.engine.core.dll" />
+		<None Include="bin\Debug\net7.0\nunit.engine.dll" />
+		<None Include="bin\Debug\net7.0\nunit.framework.dll" />
+		<None Include="bin\Debug\net7.0\NUnit3.TestAdapter.dll" />
+		<None Include="bin\Debug\net7.0\NUnit3.TestAdapter.pdb" />
+		<None Include="bin\Debug\net7.0\nunit_random_seed.tmp" />
+		<None Include="bin\Debug\net7.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.dll" />
+		<None Include="bin\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.pdb" />
+		<None Include="bin\Debug\net7.0\SB_Scriptai_Paleidimui\StartChromeSession.bat" />
+		<None Include="bin\Debug\net7.0\SB_Scriptai_Paleidimui\Start_Payment_Status_Change_Script.bat" />
+		<None Include="bin\Debug\net7.0\SeleniumExtras.PageObjects.dll" />
+		<None Include="bin\Debug\net7.0\SeleniumExtras.PageObjects.Linq.dll" />
+		<None Include="bin\Debug\net7.0\SeleniumExtras.WaitHelpers.dll" />
+		<None Include="bin\Debug\net7.0\testcentric.engine.metadata.dll" />
+		<None Include="bin\Debug\net7.0\testhost.dll" />
+		<None Include="bin\Debug\net7.0\testhost.exe" />
+		<None Include="bin\Debug\net7.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\WebDriver.dll" />
+		<None Include="bin\Debug\net7.0\WebDriverManager.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+		<None Include="bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll" />
+		<None Include="obj\Debug\net7.0\refint\SB_Momentiniai_Mokejimai_Script.dll" />
+		<None Include="obj\Debug\net7.0\ref\SB_Momentiniai_Mokejimai_Script.dll" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.AssemblyInfoInputs.cache" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.assets.cache" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.csproj.AssemblyReference.cache" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.csproj.BuildWithSkipAnalyzers" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.csproj.CopyComplete" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.csproj.CoreCompileInputs.cache" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.dll" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.GeneratedMSBuildEditorConfig.editorconfig" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.genruntimeconfig.cache" />
+		<None Include="obj\Debug\net7.0\SB_Momentiniai_Mokejimai_Script.pdb" />
+		<None Include="obj\project.nuget.cache" />
+		<None Include="obj\SB_Momentiniai_Mokejimai_Script.csproj.nuget.g.props" />
+		<None Include="obj\SB_Momentiniai_Mokejimai_Script.csproj.nuget.g.targets" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+		<PackageReference Include="DotNetSeleniumExtras.PageObjects.Core.Linq" Version="1.0.0" />
+		<PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.3.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="9.0.3" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+		<PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="17.13.0" />
+		<PackageReference Include="Microsoft.TestPlatform.TestHost" Version="17.13.0" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.8.3" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+		<PackageReference Include="NUnit" Version="4.3.2" />
+		<PackageReference Include="NUnit3TestAdapter" Version="5.0.0" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="136.0.7103.4900" />
+		<PackageReference Include="WebDriverManager" Version="2.17.5" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="bin\Debug\net7.0\runtimes\win\lib\net7.0\" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="chromedriver.exe">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

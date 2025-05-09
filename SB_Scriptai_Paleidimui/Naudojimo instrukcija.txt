@@ -1,0 +1,9 @@
+1. Pasileidžiame 'StartChromeSession'
+2. Prisijungiame, užkeliame mok. file.
+3. Užkėlus file paliekame ekraną su paketų sąrašu
+4. Pasileidžiame "Start_Payment_Status_Change_Script*
+5. Scriptas suskaičiuoja kiek yra mokėjimų paketų
+6. Scriptas pradeda keisti mok.statusus kiekviename pakete.
+7. Pasibaigus statusų keitimui, scriptas užsidaro.
+
+*Reikia nusirodyti kur guli scripto projektas šiame faile. Pakeisti scripto execution path galima atsidarius "Start_Payment_Status_Change_Script" per text editoriu. Ten nusirodomas pilnas path kur guli scripto .dll

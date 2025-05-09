@@ -1,0 +1,5 @@
+C:\Users\ama\source\repos\SB_Mokejimu_Scriptas\obj\Debug\net7.0\SB_Mokejimu_Scriptas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ama\source\repos\SB_Mokejimu_Scriptas\obj\Debug\net7.0\SB_Mokejimu_Scriptas.AssemblyInfoInputs.cache
+C:\Users\ama\source\repos\SB_Mokejimu_Scriptas\obj\Debug\net7.0\SB_Mokejimu_Scriptas.AssemblyInfo.cs
+C:\Users\ama\source\repos\SB_Mokejimu_Scriptas\obj\Debug\net7.0\SB_Mokejimu_Scriptas.csproj.CoreCompileInputs.cache
+C:\Users\ama\source\repos\SB_Mokejimu_Scriptas\obj\Debug\net7.0\SB_Mokejimu_Scriptas.csproj.AssemblyReference.cache
