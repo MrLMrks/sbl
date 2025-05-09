@@ -1,0 +1,115 @@
+[1746784844.474][INFO]: Starting ChromeDriver 136.0.7103.49 (031848bc6ad02b97854f3d6154d3aefd0434756a-refs/branch-heads/7103@{#1423}) on port 60829
+[1746784844.474][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1746784844.487][INFO]: ChromeDriver was started successfully on port 60829
+[1746784844.972][INFO]: [990b100fde62eef66a4cc60b61405f34] COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--user-data-dir=C:\\ChromeDebug" ],
+         "debuggerAddress": "127.0.0.1:9222"
+      }
+   }
+}
+[1746784844.972][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784847.011][DEBUG]: DevTools HTTP Request failed
+[1746784847.073][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784847.277][DEBUG]: DevTools HTTP Request failed
+[1746784847.338][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784849.100][DEBUG]: DevTools HTTP Request failed
+[1746784849.162][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784849.354][DEBUG]: DevTools HTTP Request failed
+[1746784849.417][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784851.188][DEBUG]: DevTools HTTP Request failed
+[1746784851.251][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784851.456][DEBUG]: DevTools HTTP Request failed
+[1746784851.520][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784853.276][DEBUG]: DevTools HTTP Request failed
+[1746784853.338][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784853.557][DEBUG]: DevTools HTTP Request failed
+[1746784853.618][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784855.376][DEBUG]: DevTools HTTP Request failed
+[1746784855.440][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784855.656][DEBUG]: DevTools HTTP Request failed
+[1746784855.719][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784857.461][DEBUG]: DevTools HTTP Request failed
+[1746784857.525][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784857.760][DEBUG]: DevTools HTTP Request failed
+[1746784857.821][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784859.567][DEBUG]: DevTools HTTP Request failed
+[1746784859.630][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784859.853][DEBUG]: DevTools HTTP Request failed
+[1746784859.915][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784861.653][DEBUG]: DevTools HTTP Request failed
+[1746784861.715][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784861.953][DEBUG]: DevTools HTTP Request failed
+[1746784862.016][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784863.727][DEBUG]: DevTools HTTP Request failed
+[1746784863.790][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784864.056][DEBUG]: DevTools HTTP Request failed
+[1746784864.120][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784865.820][DEBUG]: DevTools HTTP Request failed
+[1746784865.883][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784866.149][DEBUG]: DevTools HTTP Request failed
+[1746784866.213][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784867.904][DEBUG]: DevTools HTTP Request failed
+[1746784867.968][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784868.236][DEBUG]: DevTools HTTP Request failed
+[1746784868.296][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784869.996][DEBUG]: DevTools HTTP Request failed
+[1746784870.057][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784870.326][DEBUG]: DevTools HTTP Request failed
+[1746784870.388][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784872.085][DEBUG]: DevTools HTTP Request failed
+[1746784872.147][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784872.417][DEBUG]: DevTools HTTP Request failed
+[1746784872.481][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784874.195][DEBUG]: DevTools HTTP Request failed
+[1746784874.257][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784874.535][DEBUG]: DevTools HTTP Request failed
+[1746784874.596][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784876.293][DEBUG]: DevTools HTTP Request failed
+[1746784876.354][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784876.636][DEBUG]: DevTools HTTP Request failed
+[1746784876.698][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784878.387][DEBUG]: DevTools HTTP Request failed
+[1746784878.450][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784878.734][DEBUG]: DevTools HTTP Request failed
+[1746784878.796][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784880.469][DEBUG]: DevTools HTTP Request failed
+[1746784880.532][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784880.829][DEBUG]: DevTools HTTP Request failed
+[1746784880.892][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784882.591][DEBUG]: DevTools HTTP Request failed
+[1746784882.653][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784882.950][DEBUG]: DevTools HTTP Request failed
+[1746784883.012][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784884.682][DEBUG]: DevTools HTTP Request failed
+[1746784884.743][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784885.056][DEBUG]: DevTools HTTP Request failed
+[1746784885.117][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784886.786][DEBUG]: DevTools HTTP Request failed
+[1746784886.849][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784887.164][DEBUG]: DevTools HTTP Request failed
+[1746784887.227][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784888.869][DEBUG]: DevTools HTTP Request failed
+[1746784888.929][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784889.273][DEBUG]: DevTools HTTP Request failed
+[1746784889.334][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784890.989][DEBUG]: DevTools HTTP Request failed
+[1746784891.051][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784891.378][DEBUG]: DevTools HTTP Request failed
+[1746784891.438][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784893.103][DEBUG]: DevTools HTTP Request failed
+[1746784893.165][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784893.491][DEBUG]: DevTools HTTP Request failed
+[1746784893.554][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784895.208][DEBUG]: DevTools HTTP Request failed
+[1746784895.269][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784895.596][DEBUG]: DevTools HTTP Request failed
+[1746784895.656][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784897.306][DEBUG]: DevTools HTTP Request failed
+[1746784897.369][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784897.699][DEBUG]: DevTools HTTP Request failed
+[1746784897.759][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version
+[1746784899.389][DEBUG]: DevTools HTTP Request failed
+[1746784899.452][DEBUG]: DevTools HTTP Request: http://127.0.0.1:9222/json/version

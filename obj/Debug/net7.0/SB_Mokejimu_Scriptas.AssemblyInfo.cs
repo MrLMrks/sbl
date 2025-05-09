@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SB_Mokejimu_Scriptas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8d934a87fc8cb374228d79b9991fea09db5f5d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SB_Mokejimu_Scriptas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SB_Mokejimu_Scriptas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
